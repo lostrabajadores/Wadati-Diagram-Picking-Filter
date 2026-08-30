@@ -1,0 +1,158 @@
+{
+  "version": 4,
+  "app_title": "Interactive Wadati Quality-Control Notebook",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-b0bac97c",
+      "name": "Wadati Quality Control",
+      "route": "/",
+      "item_ref": {
+        "index": 3,
+        "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+      },
+      "blocks": [
+        {
+          "id": "header",
+          "type": "header",
+          "label": "Notebook title and workflow status",
+          "hint": "Scientific title, loaded dataset summary, and current pass indicator",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "controls",
+          "type": "form",
+          "label": "Data and model controls",
+          "hint": "CSV or QuakeML upload, correlation threshold, minimum stations, Vp/Vs bounds, waveform source, and selectable SeisBench model",
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "wadati-plot",
+          "type": "text",
+          "label": "Interactive Wadati diagram",
+          "hint": "S-P versus P points, fitted regression line, retained picks, outliers, and station hover details",
+          "x": 3,
+          "y": 1,
+          "w": 6,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "event-stats",
+          "type": "kpi",
+          "label": "Event quality summary",
+          "hint": "Pass status, correlation, retained stations, Vp/Vs estimate, and anomalous-ratio warning",
+          "x": 9,
+          "y": 1,
+          "w": 3,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "event-list",
+          "type": "list",
+          "label": "Event navigator",
+          "hint": "Filterable accepted, rejected, and anomalous events with selection controls",
+          "x": 9,
+          "y": 3,
+          "w": 3,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "pick-table",
+          "type": "table",
+          "label": "Pick inspection and re-picking table",
+          "hint": "Editable P/S times, residuals, inclusion state, provenance, and waveform-assisted suggestions",
+          "x": 0,
+          "y": 6,
+          "w": 8,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "actions",
+          "type": "form",
+          "label": "Re-run and export actions",
+          "hint": "Apply edits, run optional phase picker, execute second pass, compare runs, and download CSV results",
+          "x": 8,
+          "y": 6,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "comparison",
+          "type": "chart_bar",
+          "label": "Before and after quality comparison",
+          "hint": "Visible bars comparing accepted events, rejected events, outliers, and anomalous Vp/Vs counts across passes",
+          "x": 0,
+          "y": 10,
+          "w": 6,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "results",
+          "type": "table",
+          "label": "Dataset-level results",
+          "hint": "Sortable per-event regression metrics, pass status, Vp/Vs, removed stations, and export selection",
+          "x": 6,
+          "y": 10,
+          "w": 6,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

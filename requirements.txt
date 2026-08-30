@@ -1,0 +1,13 @@
+
+reflex[db]==0.9.8
+obspy
+panel>=1.4
+numpy
+scipy
+torch @ https://download-r2.pytorch.org/whl/cpu/torch-2.13.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+seisbench>=0.12.5
+pyviz-comms
+pandas
+matplotlib
+jupyterlab
+nbformat

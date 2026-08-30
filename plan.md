@@ -1,0 +1,5 @@
+## Interactive Wadati Quality-Control Notebook
+- [x] Create a reproducible Python 3.11+ Conda environment and runnable Jupyter notebook foundation, with a compact earth-science visual language: warm off-white canvas, slate typography, seismic red/teal status accents, and a Wadati scatterplot as the central visual centerpiece.
+- [x] Implement validated ingestion and normalization for both CSV phase-pick tables and ObsPy QuakeML catalogs, including clear schema guidance, sample scientific data, event/station summaries, and actionable errors for missing or invalid P/S picks.
+- [x] Implement the exhaustive Wadati subset search with configurable minimum correlation (default 0.9), minimum stations, and Vp/Vs bounds; report accepted/rejected events, retained picks, outliers, regression statistics, Vp/Vs estimates, and downloadable quality-control results.
+- [x] Build the embedded Panel dashboard for event-by-event inspection, linked Wadati plots and tables, manual re-picking/editing of outliers, optional waveform-assisted SeisBench re-picking with selectable pretrained models, and a second-pass rerun that compares original and revised results.

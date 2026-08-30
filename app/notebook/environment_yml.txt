@@ -1,0 +1,28 @@
+name: wadati-qc
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  # --- scientific core ---
+  - numpy>=1.26
+  - scipy>=1.11
+  - pandas>=2.1
+  - matplotlib>=3.8
+  - h5py
+  # --- seismology ---
+  - obspy>=1.5
+  # --- notebook + dashboard ---
+  - jupyterlab>=4.0
+  - notebook>=7.0
+  - nbformat>=5.9
+  - ipykernel
+  - panel>=1.4
+  - pyviz_comms>=3.0
+  - bokeh>=3.4
+  - param
+  # --- ML phase picking (CPU only) ---
+  - pytorch-cpu>=2.1
+  - pip
+  - pip:
+      - seisbench>=0.12.5
